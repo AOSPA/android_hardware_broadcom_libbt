@@ -38,10 +38,11 @@
 #include <ctype.h>
 #include <cutils/properties.h>
 #include <stdlib.h>
+#include "a2dp_constants.h"
+#include "a2dp_error_codes.h"
+#include "a2dp_sbc_constants.h"
 #include "bt_hci_bdroid.h"
 #include "bt_vendor_brcm_a2dp.h"
-#include "a2dp_api.h"
-#include "a2dp_sbc.h"
 
 #if (BTA2DP_DEBUG == TRUE)
 #define BTA2DPDBG(param, ...) {ALOGD(param, ## __VA_ARGS__);}
