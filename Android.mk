@@ -29,7 +29,7 @@ LOCAL_C_INCLUDES += \
         $(LOCAL_PATH)/include \
         $(BDROID_DIR)/hci/include \
         $(BDROID_DIR)/include \
-        $(BDROID_DIR)/stack/include \
+        $(BDROID_DIR)/device/include \
         $(BDROID_DIR)
 
 LOCAL_C_INCLUDES += $(bdroid_C_INCLUDES)
